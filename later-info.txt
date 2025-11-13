@@ -1,0 +1,9 @@
+once you open it in Godot later:
+    player.tscn = A scene that uses your two scripts:
+    sprite_design.gd for how it looks (which image to use)
+    sprite_movement.gd for how it moves (keyboard controls, jumping)
+    background.tscn = A scene that uses background.gd to show your level’s background image.
+    main.tscn = The “main room” that puts it all together:
+    Adds your background.
+    Adds your player.
+    Runs the game.
