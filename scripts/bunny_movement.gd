@@ -1,4 +1,4 @@
-# different movements: speed, jump, gravity, flip
+extends CharacterBody2D
 
 # movement parameters 
 var speed = 150
@@ -6,7 +6,7 @@ var jump_velocity = -300
 var gravity = 900
 
 #Persistent velocity
-var velocity = Vector2.ZERO # persistent velocity
+var velocity = Vector2.ZERO 
 
 func _physics_process(delta):
     handle_input()

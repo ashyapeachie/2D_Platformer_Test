@@ -7,3 +7,7 @@ once you open it in Godot later:
     Adds your background.
     Adds your player.
     Runs the game.
+
+Later, when you install Godot:
+You’ll just click “New Scene” → Add Node → Attach Script → Choose your .gd file.”
+Your code will already work!
